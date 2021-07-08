@@ -1,13 +1,233 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto+Mono:ital,wght@0,700;1,700&display=swap');
+
+:root{
+
+  --mono-font: 'Roboto Mono';
+  --sans-font: 'Inter';
+  --light-bg-color: #FFFDF8;
+  --dark-bg-color: #2A2A31;
+  --light-font-color: #1D1D1D;
+  --light-sec-font-color: #626262;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main{
+
+  background-color: var(--light-bg-color);
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--light-font-color);
+}
+
+.dark{
+
+  background-color: var(--dark-bg-color) !important;
+}
+
+header{
+
+  font-family: var(--mono-font);
+  font-style: italic;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.logo{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+#tacuquex{
+
+  font-size: 52px;
+}
+
+#est{
+
+  font-style: normal;
+  font-size: 19px;
+}
+
+.buttons{
+
+  position: absolute;
+  top: 50px;
+  cursor: pointer;
+  left: 90vw;
+}
+
+.post{
+
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: #1D1D1D 1px solid;
+  margin-bottom: 50px;
+  /* align-items: center; */
+}
+
+.album-info{
+
+  font-family: var(--sans-font);
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+#date{
+
+  width: 70%;
+  font-family: var(--mono-font);
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.album-title{
+
+  font-family: var(--mono-font);
+  font-size: 36px;
+}
+
+.album-artist{
+
+  margin-bottom: 10px;
+}
+
+.album-artist svg{
+
+  font-size: 10px;
+}
+
+.album-artist label{
+
+  margin-right: 5px;
+}
+
+.album-quote{
+
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.album-rating{
+
+  margin-bottom: 10px;
+}
+
+.album-rating svg{
+
+  font-size: 24px;
+}
+
+.album-info img{
+
+  width: auto;
+  border-radius: 10px;
+  height: 230px;
+}
+
+.review{
+
+  text-align: justify;
+  font-size: 20px;
+  font-family: var(--sans-font);
+  line-height: 27px;
+}
+
+@media screen and (max-width: 1800px) {
+  
+  
+  .album-info{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  
+  
+  .post{
+
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  
+  
+  .post{
+
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  
+  
+  .post{
+
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  
+
+  .album-title{
+
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  
+  #date{
+
+    font-size: 18px;
+  }
+
+  .album-title{
+
+    font-size: 24px;
+  }
+
+  .album-quote{
+
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  
+
+  .album-info img{
+
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  
+
+  .post{
+
+    width: 90%;
+  }
+
+  .album-desc{
+
+    margin-left: 20px;
+  }
 }
