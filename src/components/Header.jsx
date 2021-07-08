@@ -3,6 +3,11 @@ import { BiMoon } from 'react-icons/bi'
 
 export default function Header(){
     
+    function toggleTheme(){
+
+        alert("Novidades em breve.");
+    }
+
     return(
         <header>
             <div className="logo">
@@ -10,7 +15,7 @@ export default function Header(){
                 <label id="est">est. 2021</label>
             </div>
             <div className="buttons">
-                <BiMoon size={24}/>
+                <BiMoon onClick={() => {toggleTheme()}} size={24}/>
             </div>
         </header>
     );
