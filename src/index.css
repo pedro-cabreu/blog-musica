@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto+Mono:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
 
 :root{
 
   --mono-font: 'Roboto Mono';
   --sans-font: 'Inter';
+  --serif-font: 'Zilla Slab';
   --light-bg-color: #FFFDF8;
   --dark-bg-color: #2A2A31;
   --light-font-color: #1D1D1D;
   --light-sec-font-color: #626262;
 }
 
-main{
+body{
+
+  margin: 0;
+}
+
+.main-light,
+.main-dark{
 
   background-color: var(--light-bg-color);
   width: 100%;
@@ -19,11 +27,21 @@ main{
   flex-direction: column;
   align-items: center;
   color: var(--light-font-color);
+  -webkit-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
 }
 
-.dark{
+.stars{
+
+  outline: 1px solid blue;
+}
+
+.main-dark{
 
   background-color: var(--dark-bg-color) !important;
+  color: #fff;
+
 }
 
 header{
@@ -62,7 +80,10 @@ header{
   position: absolute;
   top: 50px;
   cursor: pointer;
-  left: 90vw;
+  left: 87vw;
+  width: 132px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .post{
@@ -139,12 +160,18 @@ header{
   height: 230px;
 }
 
-.review{
+.review,
+.review-serif{
 
   text-align: justify;
   font-size: 20px;
   font-family: var(--sans-font);
   line-height: 27px;
+}
+
+.review-serif{
+
+  font-family: var(--serif-font);
 }
 
 @media screen and (max-width: 1800px) {

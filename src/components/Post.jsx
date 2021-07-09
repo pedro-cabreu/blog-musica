@@ -22,9 +22,10 @@ export default function Post(props){
                         value={props.rating}
                         edit={false}
                         isHalf={true}
+                        a11y={false}
                         size={24}
-                        activeColor="#1d1d1d"
-                        color="#BBBBBB"
+                        activeColor="#858585"
+                        color="#dddddd"
                     />
                     </div>
                     <div className="album-quote">
@@ -32,7 +33,7 @@ export default function Post(props){
                     </div>
                 </div>
             </div>
-            <div className="review">
+            <div className={props.font === 'sans' || props.font === null ? "review" : "review-serif"}>
                 {
                     props.review.map((e) => (<p>{e}</p>))
                 }
