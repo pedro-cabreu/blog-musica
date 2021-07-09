@@ -167,6 +167,7 @@ header{
   font-size: 20px;
   font-family: var(--sans-font);
   line-height: 27px;
+  tab-size: 4;
 }
 
 .review-serif{

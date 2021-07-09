@@ -35,7 +35,7 @@ export default function Post(props){
             </div>
             <div className={props.font === 'sans' || props.font === null ? "review" : "review-serif"}>
                 {
-                    props.review.map((e) => (<p>{e}</p>))
+                    props.review.map((e) => (<p>&emsp;{e}</p>))
                 }
             </div>
         </div>
