@@ -5,24 +5,30 @@
         "artist": "Pink Floyd",
         "year": "1973",
         "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Dark_Side_of_the_Moon.png/220px-Dark_Side_of_the_Moon.png",
-        "quote": "And after all we're only men...",
+        "quote": "And after all we're only ordinary men...",
         "rating": 4.5,
         "review_paragraphs": [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in mauris eu quam egestas dapibus et id velit.Curabitur blandit, velit nec mattis feugiat, ligula purus aliquam ex, tincidunt ornare nulla justo et felis. Aliquam efficitur mi mauris, sed vehicula dolor tincidunt ornare. Nunc non massa nec sem vestibulum porttitor. Curabitur pharetra bibendum metus, quis tempus augue pretium ac. Morbi in accumsan justo. Sed at euismod erat, laoreet volutpat lacus. Quisque malesuada at dolor quis sollicitudin.",
             "Nullam quis enim lacinia, bibendum lorem id, egestas lectus. Mauris convallis ipsum eget dui lacinia egestas. Quisque urna elit, imperdiet rutrum tincidunt ac, egestas eu felis. Nulla ut viverra turpis. Ut at condimentum velit. Maecenas cursus pellentesque ante in malesuada. Mauris suscipit neque erat, id ultricies tellus hendrerit sed. Phasellus nec libero sodales, varius lectus in, ornare dolor. Aenean consectetur ex nec purus tempus porta. Phasellus quis enim eget lectus venenatis facilisis sed sed elit. Aenean in ipsum id neque vulputate auctor. Curabitur pharetra vel enim in egestas. Integer pharetra massa orci, vitae faucibus lectus dapibus quis. Suspendisse potenti. Suspendisse molestie velit ex, et consequat nisl suscipit a. Quisque porta est ut nisi blandit egestas. Sed eget eleifend metus. "
+        ],
+        "tags": [
+            "rock", "prog", "pink floyd"
         ]
     },
     {
-        "date": "Jul 21, 2021",
-        "albumTitle": "Dark side of the Moon",
-        "artist": "Pink Floyd",
-        "year": "1973",
-        "cover_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Dark_Side_of_the_Moon.png/220px-Dark_Side_of_the_Moon.png",
-        "quote": "And after all we're only men...",
-        "rating": 3.5,
+        "date": "Jul 22, 2021",
+        "albumTitle": "Bright Green Field",
+        "artist": "Squid",
+        "year": "2021",
+        "cover_url": "https://uproxx.com/wp-content/uploads/2021/03/squid-bright-green-field-warp-.jpg",
+        "quote": "Were you a teen girl fantasy?",
+        "rating": 4.5,
         "review_paragraphs": [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in mauris eu quam egestas dapibus et id velit.Curabitur blandit, velit nec mattis feugiat, ligula purus aliquam ex, tincidunt ornare nulla justo et felis. Aliquam efficitur mi mauris, sed vehicula dolor tincidunt ornare. Nunc non massa nec sem vestibulum porttitor. Curabitur pharetra bibendum metus, quis tempus augue pretium ac. Morbi in accumsan justo. Sed at euismod erat, laoreet volutpat lacus. Quisque malesuada at dolor quis sollicitudin.",
             "Nullam quis enim lacinia, bibendum lorem id, egestas lectus. Mauris convallis ipsum eget dui lacinia egestas. Quisque urna elit, imperdiet rutrum tincidunt ac, egestas eu felis. Nulla ut viverra turpis. Ut at condimentum velit. Maecenas cursus pellentesque ante in malesuada. Mauris suscipit neque erat, id ultricies tellus hendrerit sed. Phasellus nec libero sodales, varius lectus in, ornare dolor. Aenean consectetur ex nec purus tempus porta. Phasellus quis enim eget lectus venenatis facilisis sed sed elit. Aenean in ipsum id neque vulputate auctor. Curabitur pharetra vel enim in egestas. Integer pharetra massa orci, vitae faucibus lectus dapibus quis. Suspendisse potenti. Suspendisse molestie velit ex, et consequat nisl suscipit a. Quisque porta est ut nisi blandit egestas. Sed eget eleifend metus. "
+        ],
+        "tags": [
+            "post punk", "art punk"
         ]
     }
     ]
