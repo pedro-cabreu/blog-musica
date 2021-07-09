@@ -173,6 +173,7 @@ header{
 .review-serif{
 
   font-family: var(--serif-font);
+  font-size: 22px;
 }
 
 @media screen and (max-width: 1800px) {
