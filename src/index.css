@@ -32,6 +32,32 @@ body{
   transition: background-color 500ms linear;
 }
 
+.page404,
+.page404-dark{
+
+  color: var(--light-font-color);
+  margin-top: 40px;
+  height: 84vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: var(--mono-font);
+  overflow: hidden;
+}
+
+.page404 h1,
+.page404-dark h1{
+
+  font-size: 48px;
+  margin-bottom: 0px;
+}
+
+.page404-dark{
+
+  color: #fff;
+  background-color: var(--dark-bg-color)
+}
+
 .stars{
 
   outline: 1px solid blue;
@@ -80,10 +106,18 @@ header{
   position: absolute;
   top: 50px;
   cursor: pointer;
-  left: 87vw;
-  width: 132px;
+  left: 75vw;
+  width: 430px;
   display: flex;
   justify-content: space-evenly;
+}
+
+#query{
+
+  height: 28px;
+  border: none;
+  width: 250px !important;
+  border-radius: 6px;
 }
 
 .post{
